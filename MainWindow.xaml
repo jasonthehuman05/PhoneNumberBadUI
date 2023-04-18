@@ -1,0 +1,17 @@
+﻿<Window x:Class="CS_Timewaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS_Timewaster"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="phoneNumberLabel" Content="-----------" HorizontalAlignment="Center" Height="80" Margin="0,137,0,0" VerticalAlignment="Top" Width="300" FontSize="48" HorizontalContentAlignment="Center"/>
+        <Label Content="Is the next digit" HorizontalAlignment="Left" Margin="350,223,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="nextNumberLabel" Content="0" HorizontalAlignment="Left" Margin="384,254,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="yesButton" Content="Yes" HorizontalAlignment="Left" Height="40" Margin="400,284,0,0" VerticalAlignment="Top" Width="94" Background="#FF38BD14" Foreground="White" Click="yesButton_Click"/>
+        <Button x:Name="noButton" Content="No" HorizontalAlignment="Left" Height="40" Margin="301,284,0,0" VerticalAlignment="Top" Width="94" Background="#FFB72C2C" Foreground="White" Click="noButton_Click"/>
+        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Height="35" Margin="346,329,0,0" VerticalAlignment="Top" Width="100" Click="clearButton_Click"/>
+    </Grid>
+</Window>
